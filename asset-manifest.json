@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mansoor72373/Gadget-Galaxy/static/css/main.5469e073.css",
-    "main.js": "/mansoor72373/Gadget-Galaxy/static/js/main.13b8b6e3.js",
+    "main.js": "/mansoor72373/Gadget-Galaxy/static/js/main.58bdf3a7.js",
     "static/media/5.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/5.8a27c663f9ff057ff5b4.jpeg",
     "static/media/6.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/6.08618edf64504fd3c8b0.jpeg",
     "static/media/7.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/7.a7c197a5345c28ae0497.jpeg",
@@ -19,10 +19,10 @@
     "static/media/11.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/11.ab3253f3fd70121dfd80.jpeg",
     "index.html": "/mansoor72373/Gadget-Galaxy/index.html",
     "main.5469e073.css.map": "/mansoor72373/Gadget-Galaxy/static/css/main.5469e073.css.map",
-    "main.13b8b6e3.js.map": "/mansoor72373/Gadget-Galaxy/static/js/main.13b8b6e3.js.map"
+    "main.58bdf3a7.js.map": "/mansoor72373/Gadget-Galaxy/static/js/main.58bdf3a7.js.map"
   },
   "entrypoints": [
     "static/css/main.5469e073.css",
-    "static/js/main.13b8b6e3.js"
+    "static/js/main.58bdf3a7.js"
   ]
 }
