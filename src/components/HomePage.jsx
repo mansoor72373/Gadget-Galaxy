@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { mobiles } from '../back-end/data'; // Adjust the path as necessary
+import { mobiles } from '../back-end/data'; // Ensure this path is correct
 
 const HomePage = () => {
   // Get the first Samsung, Apple, and OnePlus phones from the data
@@ -26,56 +26,60 @@ const HomePage = () => {
         <h2 className="text-2xl font-bold mb-6">Featured Products</h2>
         <div className="flex gap-6">
           {/* Samsung Phone */}
-          <div className="bg-gray-800 p-4 rounded-lg flex-1">
-            <h2 className="text-xl font-bold mb-4">Samsung Phone</h2>
-            <img src={samsungPhone.image} alt={samsungPhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
-            <h3 className="text-lg font-bold">{samsungPhone.name}</h3>
-            <p className="text-yellow-500">${samsungPhone.price}</p>
-            <NavLink to={`/product/${samsungPhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
-              View Details
-            </NavLink>
-            <div className="mt-6">
-              <NavLink to="/shops/SamsungShop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
-                See More Samsung Phones
+          {samsungPhone && (
+            <div className="bg-gray-800 p-4 rounded-lg flex-1">
+              <h2 className="text-xl font-bold mb-4">Samsung Phone</h2>
+              <img src={samsungPhone.image} alt={samsungPhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
+              <h3 className="text-lg font-bold">{samsungPhone.name}</h3>
+              <p className="text-yellow-500">${samsungPhone.price}</p>
+              <NavLink to={`/product/${samsungPhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                View Details
               </NavLink>
+              <div className="mt-6">
+                <NavLink to="/shops/samsung-shop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                  See More Samsung Phones
+                </NavLink>
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Apple Phone */}
-          <div className="bg-gray-800 p-4 rounded-lg flex-1">
-            <h2 className="text-xl font-bold mb-4">Apple Phone</h2>
-            <img src={applePhone.image} alt={applePhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
-            <h3 className="text-lg font-bold">{applePhone.name}</h3>
-            <p className="text-yellow-500">${applePhone.price}</p>
-            <NavLink to={`/product/${applePhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
-              View Details
-            </NavLink>
-            <div className="mt-6">
-              <NavLink to="/shops/AppleShop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
-                See More Apple Phones
+          {applePhone && (
+            <div className="bg-gray-800 p-4 rounded-lg flex-1">
+              <h2 className="text-xl font-bold mb-4">Apple Phone</h2>
+              <img src={applePhone.image} alt={applePhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
+              <h3 className="text-lg font-bold">{applePhone.name}</h3>
+              <p className="text-yellow-500">${applePhone.price}</p>
+              <NavLink to={`/product/${applePhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                View Details
               </NavLink>
+              <div className="mt-6">
+                <NavLink to="/shops/apple-shop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                  See More Apple Phones
+                </NavLink>
+              </div>
             </div>
-          </div>
+          )}
 
           {/* OnePlus Phone */}
-          <div className="bg-gray-800 p-4 rounded-lg flex-1">
-            <h2 className="text-xl font-bold mb-4">OnePlus Phone</h2>
-            <img src={onePlusPhone.image} alt={onePlusPhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
-            <h3 className="text-lg font-bold">{onePlusPhone.name}</h3>
-            <p className="text-yellow-500">${onePlusPhone.price}</p>
-            <NavLink to={`/product/${onePlusPhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
-              View Details
-            </NavLink>
-            <div className="mt-6">
-              <NavLink to="/shops/OnePlusShop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
-                See More OnePlus Phones
+          {onePlusPhone && (
+            <div className="bg-gray-800 p-4 rounded-lg flex-1">
+              <h2 className="text-xl font-bold mb-4">OnePlus Phone</h2>
+              <img src={onePlusPhone.image} alt={onePlusPhone.name} className="w-full h-40 object-cover rounded-lg mb-4" />
+              <h3 className="text-lg font-bold">{onePlusPhone.name}</h3>
+              <p className="text-yellow-500">${onePlusPhone.price}</p>
+              <NavLink to={`/product/${onePlusPhone.id}`} className="mt-4 inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                View Details
               </NavLink>
+              <div className="mt-6">
+                <NavLink to="/shops/oneplus-shop" className="inline-block bg-blue-600 py-2 px-4 rounded-lg">
+                  See More OnePlus Phones
+                </NavLink>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </section>
-
-      
     </div>
   );
 };

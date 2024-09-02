@@ -25,7 +25,6 @@ const Header = () => {
       <div className='flex space-x-6'>
         <NavLink 
           to="/components/shop" 
-          exact 
           className={({ isActive }) => isActive ? "bg-gray-700 p-2 rounded" : "hover:bg-gray-700 p-2 rounded"}>
           Shop
         </NavLink>
@@ -40,13 +39,13 @@ const Header = () => {
           Add to Cart
         </NavLink>
         <NavLink 
-          to="/components/Login" 
+          to="/components/login" 
           className={({ isActive }) => isActive ? "bg-gray-700 p-2 rounded" : "hover:bg-gray-700 p-2 rounded"}>
           Login
         </NavLink>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
