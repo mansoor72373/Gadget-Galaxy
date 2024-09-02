@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/mansoor72373/Gadget-Galaxy/static/css/main.5469e073.css",
-    "main.js": "/mansoor72373/Gadget-Galaxy/static/js/main.1f2fc31e.js",
-    "static/media/5.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/5.8a27c663f9ff057ff5b4.jpeg",
-    "static/media/6.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/6.08618edf64504fd3c8b0.jpeg",
-    "static/media/7.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/7.a7c197a5345c28ae0497.jpeg",
-    "static/media/10.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/10.b79a716a54d8e5b9e1ca.jpeg",
-    "static/media/12.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/12.ce1fdace7dc6fd7e24f4.jpeg",
-    "static/media/8.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/8.3e011196d490e94ef9fd.jpeg",
-    "static/media/4.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/4.f87205c21c6e4da7ceee.jpeg",
-    "static/media/13.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/13.32241c1fcc5eb22eb273.jpeg",
-    "static/media/15.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/15.bf92385afc158244f5c5.jpeg",
-    "static/media/14.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/14.d68196da7cc5f24f64a3.jpeg",
-    "static/media/1.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/1.da0e1baadfd83f21a824.jpeg",
-    "static/media/9.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/9.19026c0e8c4811af2c43.jpeg",
-    "static/media/3.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/3.71028703c16481f2cdaa.jpeg",
-    "static/media/2.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/2.df2dc3e4dbfbdb6e881b.jpeg",
-    "static/media/11.jpeg": "/mansoor72373/Gadget-Galaxy/static/media/11.ab3253f3fd70121dfd80.jpeg",
-    "index.html": "/mansoor72373/Gadget-Galaxy/index.html",
-    "main.5469e073.css.map": "/mansoor72373/Gadget-Galaxy/static/css/main.5469e073.css.map",
-    "main.1f2fc31e.js.map": "/mansoor72373/Gadget-Galaxy/static/js/main.1f2fc31e.js.map"
+    "main.css": "/Gadget-Galaxy/static/css/main.5469e073.css",
+    "main.js": "/Gadget-Galaxy/static/js/main.418cf067.js",
+    "static/media/5.jpeg": "/Gadget-Galaxy/static/media/5.8a27c663f9ff057ff5b4.jpeg",
+    "static/media/6.jpeg": "/Gadget-Galaxy/static/media/6.08618edf64504fd3c8b0.jpeg",
+    "static/media/7.jpeg": "/Gadget-Galaxy/static/media/7.a7c197a5345c28ae0497.jpeg",
+    "static/media/10.jpeg": "/Gadget-Galaxy/static/media/10.b79a716a54d8e5b9e1ca.jpeg",
+    "static/media/12.jpeg": "/Gadget-Galaxy/static/media/12.ce1fdace7dc6fd7e24f4.jpeg",
+    "static/media/8.jpeg": "/Gadget-Galaxy/static/media/8.3e011196d490e94ef9fd.jpeg",
+    "static/media/4.jpeg": "/Gadget-Galaxy/static/media/4.f87205c21c6e4da7ceee.jpeg",
+    "static/media/13.jpeg": "/Gadget-Galaxy/static/media/13.32241c1fcc5eb22eb273.jpeg",
+    "static/media/15.jpeg": "/Gadget-Galaxy/static/media/15.bf92385afc158244f5c5.jpeg",
+    "static/media/14.jpeg": "/Gadget-Galaxy/static/media/14.d68196da7cc5f24f64a3.jpeg",
+    "static/media/1.jpeg": "/Gadget-Galaxy/static/media/1.da0e1baadfd83f21a824.jpeg",
+    "static/media/9.jpeg": "/Gadget-Galaxy/static/media/9.19026c0e8c4811af2c43.jpeg",
+    "static/media/3.jpeg": "/Gadget-Galaxy/static/media/3.71028703c16481f2cdaa.jpeg",
+    "static/media/2.jpeg": "/Gadget-Galaxy/static/media/2.df2dc3e4dbfbdb6e881b.jpeg",
+    "static/media/11.jpeg": "/Gadget-Galaxy/static/media/11.ab3253f3fd70121dfd80.jpeg",
+    "index.html": "/Gadget-Galaxy/index.html",
+    "main.5469e073.css.map": "/Gadget-Galaxy/static/css/main.5469e073.css.map",
+    "main.418cf067.js.map": "/Gadget-Galaxy/static/js/main.418cf067.js.map"
   },
   "entrypoints": [
     "static/css/main.5469e073.css",
-    "static/js/main.1f2fc31e.js"
+    "static/js/main.418cf067.js"
   ]
 }
